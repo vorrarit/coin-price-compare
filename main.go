@@ -18,6 +18,8 @@ type BxPair struct {
 	LastPrice         float64 `json:"last_price"`
 }
 
+func GetBxPrices
+
 func main() {
 	var bxResponse map[string]BxPair
 
